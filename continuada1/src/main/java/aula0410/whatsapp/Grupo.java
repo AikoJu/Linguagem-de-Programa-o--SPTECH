@@ -40,4 +40,6 @@ public class Grupo {
     public void setContatos(List<Contato> contatos) {
         this.contatos = contatos;
     }
+
+
 }

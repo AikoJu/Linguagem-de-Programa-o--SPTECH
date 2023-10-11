@@ -1,4 +1,4 @@
-package ex6.validacaonumerica;
+package continuada1.src.main.java.atividade02.validacaonumerica;
 
 import java.util.Scanner;
 

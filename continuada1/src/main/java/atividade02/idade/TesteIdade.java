@@ -1,4 +1,4 @@
-package ex3.idade;
+package continuada1.src.main.java.atividade02.idade;
 
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package continuada1.src.main.java.atividade01;
+
 import java.util.Scanner;
 
 public class CalculadoraMedia {

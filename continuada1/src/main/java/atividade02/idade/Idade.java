@@ -1,4 +1,4 @@
-package ex3.idade;
+package continuada1.src.main.java.atividade02.idade;
 
 public class Idade {
     void classificaIdade(Integer idadeUsuario){

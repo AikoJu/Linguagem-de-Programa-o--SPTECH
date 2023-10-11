@@ -1,4 +1,4 @@
-package ex1.classesocial;
+package continuada1.src.main.java.atividade02.classesocial;
 
 import java.util.Scanner;
 

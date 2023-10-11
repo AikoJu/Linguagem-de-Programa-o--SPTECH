@@ -1,4 +1,4 @@
-package ex5.calculonutricao;
+package continuada1.src.main.java.atividade02.calculonutricao;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ex2.calculoaluno;
+package continuada1.src.main.java.atividade02.calculoaluno;
 
 public class calcularMedia {
     Double calcularMedia(Double nota1, Double nota2){

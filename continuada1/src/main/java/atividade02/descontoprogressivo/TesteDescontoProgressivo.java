@@ -1,4 +1,4 @@
-package ex4.descontoprogressivo;
+package continuada1.src.main.java.atividade02.descontoprogressivo;
 
 import java.util.Scanner;
 
