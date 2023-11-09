@@ -1,6 +1,6 @@
-package atividade01;
+package  atividade01;
 
-import continuada02.whatsapp.Contato;
+import whatsapp.Contato;
 
 import java.util.ArrayList;
 import java.util.List;
