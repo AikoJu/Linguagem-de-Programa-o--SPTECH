@@ -1,4 +1,4 @@
-package continuada03.atividades.Atividade0111.produtora;
+package continuada03.atividades.atividade0111.produtora;
 
 public class Teste {
     public static void main(String[] args) {

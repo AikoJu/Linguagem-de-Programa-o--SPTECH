@@ -1,4 +1,4 @@
-package continuada03.atividades.Atividade0111.consultoria;
+package continuada03.atividades.atividade0111.consultoria;
 
 import java.util.ArrayList;
 import java.util.List;

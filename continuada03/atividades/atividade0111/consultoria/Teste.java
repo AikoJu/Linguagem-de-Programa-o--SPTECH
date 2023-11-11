@@ -1,4 +1,4 @@
-package continuada03.atividades.Atividade0111.consultoria;
+package continuada03.atividades.atividade0111.consultoria;
 
 public class Teste {
     public static void main(String[] args) {
