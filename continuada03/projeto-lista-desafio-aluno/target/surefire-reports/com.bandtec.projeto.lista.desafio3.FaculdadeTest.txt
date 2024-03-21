@@ -1,0 +1,151 @@
+-------------------------------------------------------------------------------
+Test set: com.bandtec.projeto.lista.desafio3.FaculdadeTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec <<< FAILURE!
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testExistsAlunoPorNomeQuandoAcionadoComValorInexistenteDeveRetornarFalso()  Time elapsed: 0.079 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testExistsAlunoPorNomeQuandoAcionadoComValorInexistenteDeveRetornarFalso(FaculdadeTest.java:24)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testMatricularAlunoQuandoAcionadoComValorNuloNaoDeveAlterarTamanhoDaLista()  Time elapsed: 0.053 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testMatricularAlunoQuandoAcionadoComValorNuloNaoDeveAlterarTamanhoDaLista(FaculdadeTest.java:38)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testMatricularAlunoQuandoAcionadoComValorDuplicadoNaoDeveAlterarTamanhoDaLista()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testMatricularAlunoQuandoAcionadoComValorDuplicadoNaoDeveAlterarTamanhoDaLista(FaculdadeTest.java:46)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testMatricularAlunoQuandoAcionadoComValorUnicoDeveAlterarTamanhoDaLista()  Time elapsed: 0.005 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testMatricularAlunoQuandoAcionadoComValorUnicoDeveAlterarTamanhoDaLista(FaculdadeTest.java:54)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testCancelarMatriculaQuandoAcionadoComValorNuloNaoDeveAlterarQuantidadeDeAlunoComMatriculaCancelada()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testCancelarMatriculaQuandoAcionadoComValorNuloNaoDeveAlterarQuantidadeDeAlunoComMatriculaCancelada(FaculdadeTest.java:69)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testCancelarMatriculaQuandoAcionadoComValorExistenteDeveAlterarQuantidadeDeAlunoComMatriculaCancelada()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testCancelarMatriculaQuandoAcionadoComValorExistenteDeveAlterarQuantidadeDeAlunoComMatriculaCancelada(FaculdadeTest.java:77)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosQuandoAcionadoEListaEstaVaziaDevRetornar0()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosQuandoAcionadoEListaEstaVaziaDevRetornar0(FaculdadeTest.java:83)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosQuandoAcionadoEListaPossui4AlunosDevRetornar4()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosQuandoAcionadoEListaPossui4AlunosDevRetornar4(FaculdadeTest.java:90)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosPorSemestreQuandoAcionadoEListaEstaVaziaDeveRetornar0()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosPorSemestreQuandoAcionadoEListaEstaVaziaDeveRetornar0(FaculdadeTest.java:96)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosPorSemestreQuandoAcionadoComValorNuloDeveRetornar0()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosPorSemestreQuandoAcionadoComValorNuloDeveRetornar0(FaculdadeTest.java:103)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosPorSemestreQuandoAcionadoComValorInexistenteDeveRetornar0()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosPorSemestreQuandoAcionadoComValorInexistenteDeveRetornar0(FaculdadeTest.java:110)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosPorSemestreQuandoAcionadoCom2DeveRetornar2()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosPorSemestreQuandoAcionadoCom2DeveRetornar2(FaculdadeTest.java:117)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosComMatriculaCanceladaQuandoAcionadoEListaEstaVaziaDeveRetornar0()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosComMatriculaCanceladaQuandoAcionadoEListaEstaVaziaDeveRetornar0(FaculdadeTest.java:123)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosComMatriculaCanceladaQuandoAcionadoEListaNaoPossuiAlunosComMatriculaCanceladaDeveRetornar0()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosComMatriculaCanceladaQuandoAcionadoEListaNaoPossuiAlunosComMatriculaCanceladaDeveRetornar0(FaculdadeTest.java:130)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosComMatriculaCanceladaQuandoAcionadoEListaPossui1AlunoComMatriculaCanceladaDeveRetornar1()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testGetQuantidadeAlunosComMatriculaCanceladaQuandoAcionadoEListaPossui1AlunoComMatriculaCanceladaDeveRetornar1(FaculdadeTest.java:138)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testCancelarMatriculaQuandoAcionadoEListaEstaVaziaDeveRetornar0AoAcionarGetCancelados()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:517)
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testCancelarMatriculaQuandoAcionadoEListaEstaVaziaDeveRetornar0AoAcionarGetCancelados(FaculdadeTest.java:61)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testExistsAlunoPorNomeQuandoAcionadoComValorExistenteDeveRetornarVerdadeiro()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testExistsAlunoPorNomeQuandoAcionadoComValorExistenteDeveRetornarVerdadeiro(FaculdadeTest.java:31)
+
+com.bandtec.projeto.lista.desafio3.FaculdadeTest.testExistsAlunoPorNomeQuandoAcionadoComValorNuloDeveRetornarFalso()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bandtec.projeto.lista.desafio3.FaculdadeTest.testExistsAlunoPorNomeQuandoAcionadoComValorNuloDeveRetornarFalso(FaculdadeTest.java:17)
+
